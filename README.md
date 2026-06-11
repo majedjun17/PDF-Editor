@@ -1,0 +1,76 @@
+<p align="center">
+  <img src="logo.png" width="100" alt="PDF Editor logo">
+</p>
+
+<h1 align="center">PDF Editor</h1>
+
+<p align="center"><b>Edit PDFs like a design app. Click the text. Type. Done.</b></p>
+
+---
+
+You know the drill: you just need to fix one typo in a PDF, and suddenly
+you're staring at a $20/month subscription, a "free" trial asking for your
+card, or some sketchy website that wants you to *upload your contract to
+who-knows-where*. Yeah, no thanks.
+
+PDF Editor is a small, fast Windows app that opens your PDF and lets you
+edit it the way you always assumed should be possible. And the whole thing
+runs on **your** computer — your files never go anywhere.
+
+## What it does
+
+- **Edit the actual text** — click any line, retype it, and it keeps the
+  document's own fonts. Like it was never touched.
+- **Move stuff around** — text, images, whatever. Drag, resize, rotate,
+  with smart snapping guides so things line up.
+- **Add things** — new text, your own images, highlights, pen drawings,
+  shapes, lines.
+- **Page surgery** — rotate pages, delete them, add blank ones, hide pages
+  from the export, or reset a page if you've made a beautiful mess.
+- **Fonts on tap** — use the document's fonts, grab any Google Font by
+  name, or drop in your own TTF/OTF.
+- **The shortcuts you'd expect** — undo/redo, copy/paste across pages,
+  duplicate, Ctrl+S to save. Your muscle memory just works.
+- **Clean exports** — the downloaded PDF is compact and stays a real PDF
+  (actual selectable text, not a screenshot pretending to be one).
+
+## Is it really free?
+
+Yep. **Free forever.** No subscription, no account, no watermark, no
+"premium" button lurking in a corner. There's no catch — this exists
+because editing a PDF shouldn't cost more than the document is worth.
+
+## Your files stay yours
+
+Everything happens locally on your PC. The app doesn't upload, sync,
+collect, or phone home about your documents — ever. The only thing it
+fetches from the internet is fonts (when you ask for one). Full details in
+[PRIVACY.md](PRIVACY.md).
+
+## How to get it
+
+- 🛒 **Microsoft Store** — coming soon! One-click install, automatic
+  updates, zero warnings. This will be the easiest way.
+- 💾 **Direct download** — grab `PDFEditor.exe` from the
+  [Releases page](../../releases) and just run it. No installer, no admin
+  rights. Heads up: since the direct download isn't store-signed yet,
+  Windows may show an "unrecognized app" screen the first time — click
+  **More info → Run anyway**. That's Windows being cautious with new apps,
+  not an actual problem.
+
+## What's next
+
+- **MCP integration** — connect AI assistants (like Claude) straight to
+  the editor, so you can say *"fix the date on page 3 and bold the
+  heading"* and watch it happen. This is the big one on the roadmap.
+- More edit tools, more polish, and whatever you ask for — open an
+  [issue](../../issues) if something's missing or misbehaving.
+
+## Who made this
+
+Built and owned by **Majed Aljunaidy**. If this app saved you from a PDF
+subscription, that's the whole point — tell a friend.
+
+---
+
+<p align="center">Made with ☕ and a healthy dislike of paywalls.</p>

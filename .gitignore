@@ -1,0 +1,7 @@
+# This repository hosts the app's page and releases — not the source code.
+# Everything is ignored except the files explicitly whitelisted below.
+*
+!.gitignore
+!README.md
+!PRIVACY.md
+!logo.png
