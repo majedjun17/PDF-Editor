@@ -58,11 +58,33 @@ fetches from the internet is fonts (when you ask for one). Full details in
   **More info → Run anyway**. That's Windows being cautious with new apps,
   not an actual problem.
 
+## AI integration (MCP)
+
+The editor is an MCP server: connect Claude (or any MCP client) and say
+*"fix the date on page 3 and bold the heading"* — and watch it happen
+live in the editor window. The AI can do everything you can: retype text
+in the document's own fonts, move and restyle objects, add text, images
+and shapes, manage pages, design whole documents from a blank page, and
+save a real PDF. Everything still runs 100% locally.
+
+**Connect Claude Code** (with the app running):
+
+```
+claude mcp add --transport http pdf-editor http://127.0.0.1:52125/mcp
+```
+
+**Connect Claude Desktop:** Settings → Connectors → Add custom
+connector → `http://127.0.0.1:52125/mcp`.
+
+The app listens on port `52125` (if taken, the actual port is written to
+`%LOCALAPPDATA%\PDFEditor\port.txt`). Tools the AI gets: `pdf_status`,
+`pdf_open`, `pdf_new`, `page_read`, `page_render` (it can *see* the
+page), `page_edit`, `page_op`, `fonts`, `pdf_save`. You and the AI edit
+the same live objects — your undo, autosave and download keep working,
+and the window updates within ~2 seconds of every AI edit.
+
 ## What's next
 
-- **MCP integration** — connect AI assistants (like Claude) straight to
-  the editor, so you can say *"fix the date on page 3 and bold the
-  heading"* and watch it happen. This is the big one on the roadmap.
 - More edit tools, more polish, and whatever you ask for — open an
   [issue](../../issues) if something's missing or misbehaving.
 
