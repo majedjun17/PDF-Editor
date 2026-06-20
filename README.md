@@ -49,7 +49,8 @@ fetches from the internet is fonts (when you ask for one). Full details in
 
 ## How to get it
 
-- 🛒 **Microsoft Store** — [It's HERE](https://apps.microsoft.com/detail/9P4CJTN3LM0Z?hl=en-us&gl=JO&ocid=pdpshare)
+- 🛒 **Microsoft Store** — [It's HERE](https://apps.microsoft.com/detail/9ZP4CJTN3LM0Z?hl=en-us&gl=JO&ocid=pdpshare) 
+  One-click install, automatic
   updates, zero warnings. This will be the easiest way.
 - 💾 **Direct download** — grab `PDFEditor.exe` from the
   [Releases page](../../releases) and just run it. No installer, no admin
